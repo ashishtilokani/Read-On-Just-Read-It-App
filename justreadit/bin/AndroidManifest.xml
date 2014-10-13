@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.justreadit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+       android:theme="@android:style/Theme.Holo.Light"  
+       >
+        <activity
+            android:name="com.example.justreadit.MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+       
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.justreadit.Second"
+            android:label="Read words"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.justreadit.Menuscreen"
+            android:label="Just Read It!"
+            android:screenOrientation="portrait" >
+        </activity>
+       
+        <activity
+            android:name="com.example.justreadit.SettingsActivity"
+            android:label="Settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.example.justreadit.Para"
+            android:label="Read sentences"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.justreadit.Choose"
+            android:label="Pick correct letter"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.example.justreadit.MainMenu"
+            android:label="Menu" >
+        </activity>
+        
+        <activity
+            android:name="com.example.justreadit.EnterWordsSentences"
+            android:label="Manage List" >
+        </activity>
+        
+    </application>
+
+</manifest>
